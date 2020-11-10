@@ -1,15 +1,50 @@
 body{
-  margin: 0;
+  margin: 5px;
   }
 h2{
-  margin: 8px;
+  margin: 5px;
 }
-table, th, td {
+table,td{
   border: 1px solid black;
   border-collapse: collapse;
+  font-family: verdana;
+  font-style: normal;
+  font-size: 13px;
 }
-th, td {
+th{
+  border: 1px solid white;
+  border-collapse: collapse;
+  font-family: verdana;
+  font-style: normal;
+  font-size: 14px;
   padding: 5px;
   text-align: left;
   color: white;
+}
+td{
+  border: 1px solid white;
+  border-collapse: collapse;
+  font-family: verdana;
+  font-style: normal;
+  font-size: 13px;
+  padding: 5px;
+  text-align: left;
+  color: white;
+}
+a:link {
+  text-decoration: none;
+  color: white
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+a:active {
+  text-decoration: underline;
 }
