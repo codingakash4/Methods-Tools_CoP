@@ -33,11 +33,12 @@ td{
 }
 a:link {
   text-decoration: none;
-  color: white
+  color: white;
 }
 
 a:visited {
   text-decoration: none;
+  color: white;
 }
 
 a:hover {
@@ -47,4 +48,5 @@ a:hover {
 
 a:active {
   text-decoration: underline;
+  color: white;
 }
