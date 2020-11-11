@@ -1,9 +1,6 @@
 body{
   margin: 5px;
   }
-  .header{
-    display: flex;
-  }
   .page{
     color: black;
     font-family: "Open Sans", "Montserrat";
@@ -53,6 +50,6 @@ a:hover {
 }
 
 a:active {
-  text-decoration: underline;
+  text-decoration: none;
   color: white;
 }
