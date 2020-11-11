@@ -1,33 +1,38 @@
 body{
   margin: 5px;
   }
-h2{
-  margin: 5px;
-}
-table,td{
-  border: 1px solid black;
+  .header{
+    display: flex;
+  }
+  .page{
+    color: black;
+    font-family: "Open Sans", "Montserrat";
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0;
+    margin: 3px;
+  }
+table{
   border-collapse: collapse;
-  font-family: verdana;
-  font-style: normal;
-  font-size: 13px;
+
 }
 th{
   border: 1px solid white;
   border-collapse: collapse;
-  font-family: verdana;
+  font-family: "Open Sans", "Montserrat";
   font-style: normal;
   font-size: 14px;
-  padding: 5px;
+  padding: 2px;
   text-align: left;
   color: white;
 }
 td{
   border: 1px solid white;
   border-collapse: collapse;
-  font-family: verdana;
+  font-family: "Open Sans", "Montserrat";
   font-style: normal;
   font-size: 13px;
-  padding: 5px;
+  padding: 2px;
   text-align: left;
   color: white;
 }
@@ -42,8 +47,9 @@ a:visited {
 }
 
 a:hover {
-  text-decoration: underline;
-  color: blue;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
 
 a:active {
